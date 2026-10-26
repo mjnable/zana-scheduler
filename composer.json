@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.5",
         "mj-zana/console": "^2.2",
-        "mj-zana/core": "^2.2",
+        "mj-zana/core": "^2.4",
         "psr/log": "^3.0",
         "psr/simple-cache": "^3.0"
     },
@@ -26,10 +26,10 @@
         }
     },
     "repositories": [
-        { "type": "path", "url": "../zana-container", "options": { "symlink": true, "versions": { "mj-zana/container": "2.3.0" } } },
-        { "type": "path", "url": "../zana-configuration", "options": { "symlink": true, "versions": { "mj-zana/configuration": "2.3.0" } } },
-        { "type": "path", "url": "../zana-core", "options": { "symlink": true, "versions": { "mj-zana/core": "2.3.0" } } },
-        { "type": "path", "url": "../zana-console", "options": { "symlink": true, "versions": { "mj-zana/console": "2.3.0" } } }
+        { "type": "path", "url": "../zana-container", "options": { "symlink": true, "versions": { "mj-zana/container": "2.4.0" } } },
+        { "type": "path", "url": "../zana-configuration", "options": { "symlink": true, "versions": { "mj-zana/configuration": "2.4.0" } } },
+        { "type": "path", "url": "../zana-core", "options": { "symlink": true, "versions": { "mj-zana/core": "2.4.0" } } },
+        { "type": "path", "url": "../zana-console", "options": { "symlink": true, "versions": { "mj-zana/console": "2.4.0" } } }
     ],
     "scripts": {
         "test": "phpunit",

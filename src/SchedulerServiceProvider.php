@@ -33,7 +33,7 @@ final class SchedulerServiceProvider extends ServiceProvider
                 assert($schedule instanceof Schedule);
 
                 return new Scheduler($schedule, $r, $cache instanceof CacheInterface ? $cache : null, $logger instanceof LoggerInterface ? $logger : null);
-            })
+            })->uses(Schedule::class, CacheInterface::class, LoggerInterface::class)
             ->singleton(ScheduleRunCommand::class)
             ->tag(ConsoleKernel::TAG, ScheduleRunCommand::class)
             ->singleton(ScheduleListCommand::class)
