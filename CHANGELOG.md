@@ -1,0 +1,9 @@
+# Changelog
+
+All Zana packages share one version number and are released together. A release that did
+not change this package is not listed.
+
+## 2.2.0 — unreleased
+
+First release (FE-36). Cron expressions, tasks run in their own container scope, overlap locks
+in the PSR-16 cache, failures logged, and the `schedule:run` and `schedule:list` commands.
